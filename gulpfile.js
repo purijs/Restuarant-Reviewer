@@ -14,7 +14,7 @@ var elixir = require('laravel-elixir');
 elixir(function(mix) {
     //mix.sass('app.scss');
     mix.styles(['bootstrap.min.css','index.css'],'public/css/master.css',null);
-    mix.scripts(['angular.min.js','app.js','controller/resturant.js','bootstrap.min.js'],'public/js/master.js',null);
+    mix.scripts(['jquery.min.js','angular.min.js','app.js','controller/resturant.js','bootstrap.min.js'],'public/js/master.js',null);
     //mix.scripts('js/bootstrap.min.js','js/angular.min.js');
     //mix.scripts('js/bootstrap.min.js');
 });
