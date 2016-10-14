@@ -1,7 +1,7 @@
 /**
  * Created by JaskaranSingh on 04-10-2016.
  */
-angular.module('rsw.controller.1', [])
+angular.module('rsw.controller', [])
     .controller('master', ['$scope', '$http', function($scope, $http){
         $http.get("http://campusmillstore.com/ud_test/info.json").then(function(response) {
             $scope.resturant = response.data.records;
